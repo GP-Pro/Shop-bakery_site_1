@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вкусная выпечка</title>
+    <!-- Название отображающееся на владке браузера -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/normalize.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <meta
+      name="description"
+      content="Лучшая выпечка в городе, налетааааайййй!!!"
+    />
+    <!-- Добавляем описание к шапке страницы для лучшего ранжирования -->
+  </head>
+  <body>
+    <header>
+      <img src="src/img/01-Logo.svg" alt="Иконка изображения" />
+      <!-- С помощью тега img линкуем наше изображение -->
+    </header>
+    <nav>
+      <!-- Размещаем в теге NAV навигацию с использованием списка -->
+      <ul>
+        <!-- Создаем с помощью тега UL структуру списка -->
+        <li><a href="#">О НАС</a></li>
+        <!-- символ # является заглушкой, если ссылка не ведет на сторонние ресурсы. Первый пункт в составе меню под тегом LI, далее в теге A размещаем ссылку для навигации -->
+        <li><a href="#">НОВОСТИ</a></li>
+        <li><a href="#">МЕНЮ</a></li>
+        <li><a href="#">КОНТАКТЫ</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="section-about">
+        <div class="section-about__block">
+          <div class="section-about__border">
+            <h1 class="section-about__title">Специальный заказ</h1>
+            <p class="section-about__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+              voluptatem voluptatum obcaecati repellat ratione tempora deserunt
+              rem doloribus molestiae assumenda nihil, debitis pariatur iure
+              minima nulla sequi nemo reprehenderit a!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- создаем оттельный класс для данной секции с логическим названием -->
+
+      <section class="section-description">
+        <div class="section-description__icon-box">
+          <img src="/src/icons/01-Icons.svg" alt="01-Иконка" />
+          <img src="/src/icons/02-Icons.svg" alt="02-Иконка" />
+          <img src="/src/icons/03-Icons.svg" alt="03-Иконка" />
+        </div>
+        <div class="section-description__text-box">
+          <h2 class="section-description__title">
+            Выпечка -
+            <span class="span-red">это</span> вкусно!
+          </h2>
+          <p class="section-description__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </section>
+      <section class="section-map">
+        <p class="section-map__title">ЗАКАЗАТЬ</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d354.2556410356595!2d30.14439088546794!3d59.84959640042931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963b49db2a2d29%3A0xe6f9fe79cad861de!2z0JvRjtC00LjQm9GO0LHRj9GC!5e0!3m2!1sru!2sru!4v1709051456015!5m2!1sru!2sru"
+          width="900"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <hr />
+        <ul>
+          <li><a href="#">О НАС</a></li>
+          <li><a href="#">НОВОСТИ</a></li>
+          <li><a href="#">МЕНЮ</a></li>
+          <li><a href="#">КОНТАКТЫ</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

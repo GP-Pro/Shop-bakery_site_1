@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+/* html {
+  font-family: "Roboto";
+  font-weight: 400;
+} */
+
+body {
+  background-color: #ffe2b0;
+}
+
+header {
+  text-align: center; /* свойство text-align: ; применяется ко всему содержимому лежащему внутри тега header */
+  margin-bottom: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 550;
+  font-size: 18px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none; /* Убирает/назначает маркеры для элементов списка */
+  text-align: center; /* Центрирует положение контента внтури блока div/семантического тега */
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
+}
+
+li:last-child {
+  margin-right: 0px;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+.section-about {
+  height: 640px;
+  background: url(/src/img/01-Картинка-фона.jpg) center/cover no-repeat;
+  margin-bottom: 20px;
+}
+
+.section-about__block {
+  height: 190px;
+  width: 420px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%
+  );
+  position: relative;
+  top: 54.7%;
+  left: 50.7%;
+  padding-top: 15px;
+}
+
+.section-about__border {
+  height: 160px;
+  width: 390px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-top: 18px;
+  padding-left: 28px;
+  padding-right: 18px;
+  text-align: left;
+}
+
+.section-about__title {
+  font-family: "Philosopher", sans-serif; /* Подключаю шрифт Philosopher в проект через внешнюю ссылку с Google Fonts */
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0px;
+  margin-bottom: 9px;
+}
+
+/* .section-about__title:hover {
+  color: chocolate;
+} */
+
+.section-about__text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.section-description {
+  margin-bottom: 20px;
+}
+
+.section-description__icon-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-description__icon-box img {
+  margin-right: 76px;
+}
+
+.section-description__icon-box img:last-child {
+  margin-right: 0px;
+}
+
+.section-description__text-box {
+  margin-bottom: 20px;
+}
+
+.section-description__title {
+  font-size: 96px;
+  font-weight: 530;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.span-red {
+  color: #f15b45;
+}
+
+.section-description__text {
+  text-align: center;
+  margin: 0 auto; /* так как тег <p> это блочный эл-т и ему задана ширина, выравниванию его методом auto*/
+  font-size: 18px;
+  width: 880px;
+}
+
+.section-map {
+  margin-bottom: 20px;
+}
+
+.section-map__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 550;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #000000;
+  width: 1024px;
+  margin: 0 auto 20px;
+}
+
+footer {
+  height: 80px;
+}
